@@ -42,6 +42,7 @@ executable knotes-exe
                      , cereal
                      , string-conversions
                      , aeson
+                     , conduit-combinators
   default-language:    Haskell2010
 
 test-suite knotes-test
